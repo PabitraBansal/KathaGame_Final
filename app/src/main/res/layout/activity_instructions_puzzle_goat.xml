@@ -41,8 +41,8 @@
 
     <VideoView
         android:id="@+id/instr"
-        android:layout_width="251dp"
-        android:layout_height="383dp"
+        android:layout_width="326dp"
+        android:layout_height="414dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="4dp"
@@ -63,7 +63,9 @@
         android:layout_marginBottom="4dp"
         android:background="@drawable/shadow"
         android:text="अगला"
-        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:drawableRight="@drawable/ic_arrow"
+        android:textColor="@android:color/white"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
